@@ -1,0 +1,16 @@
+.draggable-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.draggable {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+.dragging {
+    opacity: 0.5;
+}
